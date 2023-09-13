@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ifnimes - Assistir Animes Online</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="carrossel.js" defer></script>
+    <link rel="shortcut icon" href="./assets/pikachu 1.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1 ,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header id="cabeçalho">
+        <nav>
+           <a href="tela_inicio.html"> <img class="cabeçalho-menu-logo" src="./assets/logo.svg"></a>
+            <ul class="cabeçalho-menu">
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">Categorias</a>
+                    <div class="dropdown-content">
+                        <a href="#"> Ação</a>
+                        <a href="#"> Comédia</a>
+                        <a href="#"> Drama</a>
+                        <a href="#"> Fantasia</a>
+                        <a href="#"> Hentai</a>
+                        <a href="#"> Romance</a>
+                        <a href="#"> Música</a>
+                        <a href="#"> Seinen</a>
+                        <a href="#"> Shoujo</a>
+                        <a href="#"> Shounen</a>
+                        <a href="#"> Sobrenatural</a>
+                        <a href="#"> Suspense</a>
+                    </div>
+                </li>
+                <li class="menu"><a href="lancamentos.html">Lançamentos</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="#">Notícias</a>
+                    <div class="dropdown-content">
+                        <a href="#"> Todas as notícias</a>
+                        <a href="#"> Eventos</a>
+                        <a href="#"> Premiações</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="cabeçalho-menu-item">
+                <button class="pesquisar">
+                    <div class="input-buscar">
+                        <input type="text" name="busca" id="busca" placeholder="  Buscar animes...">
+                    </div> 
+                    <div class="lupa">
+                        <i class="bi bi-search"></i>
+                    </div>
+                </button>
+                <button class="user">
+                    <a href="login.html"><i class="bi bi-person-circle"></i></a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="home">
+        <section class="conteúdo-prim">
+            <div class="button1">
+                <button id="prev-button">
+                    <i class="bi bi-caret-left-fill"></i>
+                </button>
+            </div>
+
+                <div class="slider">
+                    <div class="slides"> 
+                        <!-- Radio Buttons -->
+                        <input type="radio" name="radio-btn" id="radio1" checked>
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+
+                        <!--Slide images -->
+                        <div class="slide first">
+                            <img src="./assets/naruto-shippuuden-foto.svg">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/Dragon-Ball-Z..svg">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/Wonder-Egg-Priority.svg">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/one-piece-.jpg.svg">
+                        </div>
+                        <div class="slide">
+                            <img src="./assets/onepunchman1.svg"> 
+                        </div>
+
+                        <!-- Navigation -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                            <div class="auto-btn5"></div>
+                        </div>
+                    </div>
+                    
+                    <!--  -->
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5"  class="manual-btn"></label>
+                    </div>
+                </div>
+
+                <div class="button2">
+                    <button id="next-button">
+                        <i class="bi bi-caret-right-fill"></i>
+                    </button>
+                </div>
+        </section>
+            
+        <section class="conteúdo-terc">
+            <h1 class="conteúdo-terc-título">Recomendados</h1>
+            <section class="animes">
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/death-note (2).svg">
+                    <p class="conteúdo-terc-texto">Death Note</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/jujutso kaisen.svg">
+                    <p class="conteúdo-terc-texto">Jujutso Keisen</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/spy x family.svg">
+                    <p class="conteúdo-terc-texto">Spy x Family</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/evangelion.svg">
+                    <p class="conteúdo-terc-texto">Neon Genesis Evangelion</p>
+                </section>
+                <section class="anime">
+                    <a href="anime_page.html"><img class="conteúdo-terc-imagem" src="./assets/chainsaw-man.svg"></a>
+                    <p class="conteúdo-terc-texto">Chaisaw man</p>
+                </section>
+                <section class="anime">
+                    <a href="anime_page.html"><img class="conteúdo-terc-imagem" src="./assets/zoom 100.svg"></a>
+                    <p class="conteúdo-terc-texto">Zoom 100</p>
+                </section>
+                <section class="anime">
+                    <a href="anime_page.html"><img class="conteúdo-terc-imagem" src="./assets/mob-psycho.svg"></a>
+                    <p class="conteúdo-terc-texto">Mob Psycho</p>
+                </section>
+                    <div class="buttons2">
+                        <button id="next-button">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </button>
+                    </div>
+            </section>
+        
+            <h1 class="conteúdo-terc-título">Mais Assistidos</h1>
+            <section class="animes">
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/naruto.svg">
+                    <p>Naruto Shippuden</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/shingeki-no-kyojin.svg">
+                    <p>Shingeki no Kyojin</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/black-clover.svg">
+                    <p>Black Clover</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/dragon_ball_super.svg">
+                    <p>Dragon Ball Super</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/imagenes-de-one-piece.svg">
+                    <p>One Piece</p>
+                </section>
+                <section class="anime">
+                    <img class="conteúdo-terc-imagem" src="./assets/pokemon.svg">
+                    <p>Pokemon</p>
+                </section>
+                <section class="anime">
+                    <a href="anime_page.html"><img class="conteúdo-terc-imagem" src="./assets/My-hero-academia-survive.svg"></a>
+                    <p class="conteúdo-terc-texto">My Hero Academia</p>
+                </section>
+                    <div class="buttons2">
+                        <button id="next-button">
+                            <i class="bi bi-caret-right-fill"></i>
+                        </button>
+                    </div>
+            </section>  
+        </section>
+    </main> 
+    
+    <div class="linha">
+    </div>
+
+    <footer class="rodapé">
+        <div>
+            <h3>Contatos:</h3>
+            <div class="redes-sociais">
+                <r>Instagram</r>
+                <r>Twitter</r>
+            </div>
+        </div>
+        <div class="burocracias">
+            <d>Termos de uso</d>
+            <d>sobre</d>
+            <d>Política de privacidade</d>
+        </div>
+        <div class="nome">
+            <w>Ifnimes 2023.</w>
+        </div>
+    </footer>
+</body>
+
+</html>
